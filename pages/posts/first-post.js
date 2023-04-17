@@ -73,7 +73,9 @@ export default function FirstPost() {
 
   return (
     <>
-      <h1>Hello world!</h1>
+      <h1>이름: 조준상</h1>
+      <h1>학번: 2018007792</h1>
+      <h1>이번 과제는 너무 어려웠습니다...ㅠㅠ</h1>
       <div ref={canvasRef} /> {/* Add the canvas element */}
       <h2>
         <Link href="/">Back to home</Link>
